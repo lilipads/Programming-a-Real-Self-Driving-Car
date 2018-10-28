@@ -4,7 +4,13 @@
 Team Members: David Svanlund, Lili Jiang, Yunjae Choi, Li Gen, Sandeep Paulraj
 
 ### Background
-In this capstone project, we implemented various aspects of a self-driving car using the [Robot Operating System (ROS)](http://www.ros.org) and [Autoware](https://autoware.ai). The code both powers a virtual car to drive on a simulated road in a simulator environment and also a real Udacity self-driving car to drive in a parking lot. The car will be able to follow a pre-defined trajectory with controlled acceleration / speed, and also will be able to respond to traffic lights. The key aspects of the implementations are: a) traffic light detection, b) waypoint update, c) controller. We discuss our implementation in detail in sections below.
+In this capstone project, we implemented various aspects of a self-driving car using the [Robot Operating System (ROS)](http://www.ros.org) and [Autoware](https://autoware.ai). The code both powers a virtual car to drive on a simulated road in a simulator environment and also a real Udacity self-driving car to drive in a parking lot. The car will be able to follow a pre-defined trajectory with controlled acceleration / speed, and also will be able to respond to traffic lights. 
+
+See demo of a self driving car loaded with our code!
+
+![demo](imgs/demo.gif)
+
+The key aspects of the implementations are: a) traffic light detection, b) waypoint update, c) controller. We discuss our implementation in detail in sections below.
 
 ### Traffic Light Detection
 
