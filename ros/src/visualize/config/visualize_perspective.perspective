@@ -1,0 +1,231 @@
+{
+  "keys": {},
+  "groups": {
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "type": "repr",
+          "repr": "{u'rqt_plot/Plot': [3, 1]}"
+        }
+      },
+      "groups": {
+        "plugin__rqt_plot__Plot__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'MatPlot'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/vehicle/brake_report/data', u'/vehicle/brake_cmd/pedal_cmd']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[-79.55588320470213, 1809.0]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[70.37888479232788, 71.37888479232788]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__2": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'MatPlot (2)'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "u'/vehicle/steering_cmd/steering_wheel_angle_cmd'"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[-0.21353216358780758, 0.8104354638481152]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[356.2510349750519, 357.2510349750519]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__3": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'MatPlot (3)'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "[u'/vehicle/throttle_cmd/pedal_cmd', u'/vehicle/throttle_report/data']"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[-0.1056772148182939, 1.894322785181706]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[70.49388885498047, 71.49388885498047]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_topic__TopicPlugin__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "tree_widget_header_state": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000000000001000000010000000001000000000000000000000000000000000000042c000000050101000100000000000000000500000064ffffffff000000810000000300000005000000de00000001000000030000014100000001000000030000007200000001000000030000003d00000001000000030000015e0000000100000003000003e800')",
+                  "pretty-print": "                              d               A     r     =     ^      "
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_rviz__RViz__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'RViz[*]'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "rviz_config_file": {
+                  "type": "repr",
+                  "repr": "u''"
+                },
+                "hide_menu": {
+                  "type": "repr",
+                  "repr": "False"
+                }
+              },
+              "groups": {}
+            }
+          }
+        }
+      }
+    },
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb000200000000054e0000008100000721000003e80000054e0000009d00000721000003e800000000000000000780')",
+          "pretty-print": "     N   !   N   !       "
+        },
+        "state": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd0000000200000002000001d400000336fc0100000002fc00000000000001d40000017800fffffffc0200000002fb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0031005f005f00440061007400610050006c006f00740057006900640067006500740100000000000001890000008c00fffffffb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0033005f005f00440061007400610050006c006f0074005700690064006700650074010000018f000001a70000008c00fffffffc000000000000069f0000000000fffffffc0200000001fb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0032005f005f00440061007400610050006c006f0074005700690064006700650074030000042f000002850000018d0000017600000003000004f4000002e9fc0100000004fb00000026007200710074005f007200760069007a005f005f005200560069007a005f005f0031005f005f0100000000000004f40000000000000000fb0000004c007200710074005f0074006f007000690063005f005f0054006f0070006900630050006c007500670069006e005f005f0031005f005f0054006f00700069006300570069006400670065007403000002dd000000e10000044f000001a1fb00000078007200710074005f00720075006e00740069006d0065005f006d006f006e00690074006f0072005f005f00520075006e00740069006d0065004d006f006e00690074006f0072005f005f0031005f005f00520075006e00740069006d0065004d006f006e00690074006f007200570069006400670065007401000003890000016b0000000000000000fb00000042007200710074005f006e00610076005f0076006900650077005f005f004e0061007600690067006100740069006f006e0056006900650077005f005f0031005f005f03000004e9000001350000018b0000021e000001d40000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')",
+          "pretty-print": "                     x                                                                                                          Brqt_plot__Plot__2__DataPlotWidget                   &rqt_rviz__RViz__1__          Lrqt_topic__TopicPlugin__1__TopicWidget          xrqt_runtime_monitor__RuntimeMonitor__1__RuntimeMonitorWidget          Brqt_nav_view__NavigationView__1__                            6MinimizedDockWidgetsToolbar        "
+        }
+      },
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "type": "repr",
+              "repr": "8"
+            }
+          },
+          "groups": {}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+item {
+  id: 1
+  name: 'traffic_light_red'
+}
+
+item {
+  id: 2
+  name: 'traffic_light_green'
+}
+
+item {
+  id: 3
+  name: 'traffic_light_yellow'
+}

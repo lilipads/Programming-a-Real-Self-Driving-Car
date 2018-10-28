@@ -1,0 +1,22 @@
+0. download and configure tensorflow object detection API. 
+
+$ git clone https://github.com/tensorflow/models
+$ cd models
+$ git checkout 59f7e80ac8ad5491366
+
+Note it is important to checkout the earlier commit as the latest version is not compatible with with the export script.
+
+Follow directions at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
+
+1. train and evaluate model on latest tensorflow (>=1.8)
+
+note: 
+-some models have errors in training
+-latest models have ops that are not in tf 1.4 or 1.3 
+
+2. export inference graph with tensorflow 1.4
+
+note: 
+- changing tf.keras.Model -> tf.keras.models.Model for the error
+
+3. run frozen graph on tensorflow 1.3

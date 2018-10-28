@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui" required="true" args = "--perspective-file $(find visualize)/config/visualize_perspective.perspective"/>
+    <node name="rviz" pkg="rviz" type="rviz" required="true" args="-d $(find visualize)/config/rvis_config.rviz" />
+    <node name="visualize" pkg="visualize" type="visualize.py" />
+</launch>
